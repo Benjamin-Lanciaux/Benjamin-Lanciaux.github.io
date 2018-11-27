@@ -1,0 +1,141 @@
+/* MIXIN */
+@mixin bloc {
+    padding: 3% 0%;
+    margin: 1% 0%;
+}
+
+/* VARIABLES */
+
+/* GENERAL */
+html, body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    padding: 2% 0%;
+}
+
+/* MENU */
+
+/* HEADER */
+#header{
+    background: url(images/lac.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    text-align: center;
+    color: white;
+        div{
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle; 
+            h1{    
+                font-weight: bold;
+                background: rgba($color: #cacaca, $alpha: 0.8);
+                display: inline-block;
+                padding: 2%;
+                border-radius: 5px;
+            }  
+        } 
+}
+/* ABOUT */
+#about{
+    @include bloc;    
+    .portrait{
+        width:80%;
+    }
+    p{
+        font-size: 1.2em;
+    }
+}
+
+
+/* EXP */
+#experiences{
+    background-color: rgba($color: #cacaca, $alpha: 0.6);
+    @include bloc;
+    .border-right{
+       border-right: 2px solid #17a2b8!important;
+    }
+    img{
+        width: 100%;
+    }
+}
+
+/* FORMATION */
+#formation{
+    @include bloc;
+    .img-formation{
+        width:80%;
+    }
+}
+
+/* PORTFOLIO */
+#portfolio{
+    background-color: rgba($color: #cacaca, $alpha: 0.6);
+    @include bloc;
+    .card{
+        margin: 1%;
+        .card-img-top{
+            filter: grayscale(0%);
+            -ms-filter: grayscale(0%);
+            -webkit-filter: grayscale(0%);
+            &:hover{
+                cursor: pointer;
+            }
+        &:hover{
+            transition: all 0.3s;
+            filter: grayscale(100%);
+            -ms-filter: grayscale(100%);
+            -webkit-filter: grayscale(100%);
+        }
+        }
+    }
+    @media (max-width: 768px){
+            .card-deck {
+            flex-direction: column;
+            }
+    }
+}
+
+/* COMPETENCES */
+#competences{
+    @include bloc;
+    background: url(images/metro.jpg) no-repeat center center fixed;
+    display: table;
+    height: auto;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    padding-top: 5%;
+    .fab{
+        color: white;
+        font-size: 4em;
+    }  
+    #bloc-competence{
+        background-color: rgba($color: #cacaca, $alpha: 0.8);
+        color: white;
+        text-align: center;
+        border-radius: 5px;
+    }
+}
+
+/* CONTACT */
+#contact{
+    @include bloc;
+    ul{
+        li{
+            list-style: none;
+        }
+    }
+}
+
+i{
+    padding-right: 10px;
+}

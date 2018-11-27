@@ -1,1 +1,435 @@
-Hello Ben
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Benjamin Lanciaux - Portfolio</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Other meta tags-->
+        <meta name="description" content="Portfolio de Benjamin Lanciaux">
+        <meta name="keywords" content="portfolio,html5,css3,bootstrap,materialize">
+        <meta name="author" content="Benjamin Lanciaux">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    </head>
+    <body data-spy="scroll" data-target=".navbar">
+        <nav id="navbar" class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <!-- Toggler/collapsibe Button -->
+                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon">   
+                                <i class="fa fa-navicon"></i>
+                        </span>
+                    </button>
+                    <a class="navbar-brand text-uppercase" href="#">Benjamin Lanciaux</a>
+                </div>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">A propos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#experiences">Expériences</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#formation">Formation</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#competences">Compétences</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="header">
+            <div>
+                <h1>Développeur Front-End<br>Digital Marketeur<br><small>Benjamin Lanciaux</small></h1>
+            </div>
+        </section>
+        <section id="about">
+            <h2 class="text-center text-uppercase text-secondary mb-0">A propos</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <img class="img-fluid portrait img-thumbnail" src="images/benjamin-lanciaux-portrait.jpg" alt="Photo Benjamin Lanciaux">
+                    </div>
+                    <div class="col-md-8 text-center my-auto">
+                        <p>Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente. 
+                            L'avantage de le mettre en latin est que l'opérateur sait au premier coup d'oeil que la page contenant ces lignes n'est pas valide, 
+                            et surtout l'attention du client n'est pas dérangée par le contenu, il demeure concentré seulement sur l'aspect graphique.
+                        </p>
+                        <a href="images/CV_Benjamin_Lanciaux.pdf" download="CV Benjamin Lanciaux" class="btn btn-info" role="button">Télécharger CV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="experiences">
+            <h2 class="text-center text-uppercase text-secondary mb-0">Expériences</h2>
+            <div class="container py-2">
+    
+                    <!-- timeline item 1 -->
+                    <div class="row no-gutters">
+                        <div class="col-sm"> <!--spacer--> </div>
+                        <!-- timeline item 1 center dot -->
+                        <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                            <div class="row h-50">
+                                <div class="col">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                            <h5 class="m-2">
+                                <img src="images/xwiki-logo.png">
+                            </h5>
+                            <div class="row h-50">
+                                <div class="col border-right">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                        </div>
+                        <!-- timeline item 1 event content -->
+                        <div class="col-sm py-2">
+                            <div class="card shadow">
+                                <div class="card-body">
+                                    <div class="float-right text-muted small">2012-2016</div>
+                                    <h4 class="card-title">XWiki</h4>
+                                    <p class="card-text">Welcome to the campus, introduction and get started with the tour.</p>
+                                    <button class="btn btn-sm btn-outline-secondary" type="button" data-target="#t23_details" data-toggle="collapse">Détail des missions ▼</button>
+                                    <div class="collapse border" id="t23_details">
+                                        <div class="p-2">
+                                            <div>08:30 - 09:00 Breakfast in CR 2A</div>
+                                            <div>09:00 - 10:30 Live sessions in CR 3</div>
+                                            <div>10:30 - 10:45 Break</div>
+                                            <div>10:45 - 12:00 Live sessions in CR 3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/row-->
+                    <!-- timeline item 2 -->
+                    <div class="row no-gutters">
+                        <div class="col-sm py-2">
+                            <div class="card shadow">
+                                <div class="card-body">
+                                    <div class="float-right small">2011</div>
+                                    <h4 class="card-title">Auchan</h4>
+                                    <p class="card-text">Sign-up for the lessons and speakers that coincide with your course syllabus. Meet and greet with instructors.</p>
+                                    <button class="btn btn-sm btn-outline-secondary" type="button" data-target="#t22_details" data-toggle="collapse">Détail des missions ▼</button>
+                                    <div class="collapse border" id="t22_details">
+                                        <div class="p-2">
+                                            <div>08:30 - 09:00 Breakfast in CR 2A</div>
+                                            <div>09:00 - 10:30 Live sessions in CR 3</div>
+                                            <div>10:30 - 10:45 Break</div>
+                                            <div>10:45 - 12:00 Live sessions in CR 3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                            <div class="row h-50">
+                                <div class="col border-right">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                            <h5 class="m-2">
+                                <img src="images/auchan-logo.png">
+                            </h5>
+                            <div class="row h-50">
+                                <div class="col border-right">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="col-sm"> <!--spacer--> </div>
+                    </div>
+                    <!--/row-->
+                    <!-- timeline item 3 -->
+                    <div class="row no-gutters">
+                        <div class="col-sm"> <!--spacer--> </div>
+                        <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                            <div class="row h-50">
+                                <div class="col border-right">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                            <h5 class="m-2">
+                                <img src="images/motorola-logo.png">
+                            </h5>
+                            <div class="row h-50">
+                                <div class="col border-right">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="col-sm py-2">
+                            <div class="card shadow">
+                                <div class="card-body">
+                                    <div class="float-right text-muted small">Jan 11th 2019 8:30 AM</div>
+                                    <h4 class="card-title">Motorola</h4>
+                                    <p>Shoreditch vegan artisan Helvetica. Tattooed Codeply Echo Park Godard kogi, next level irony ennui twee squid fap selvage. Meggings flannel Brooklyn literally small batch, mumblecore PBR try-hard kale chips. Brooklyn vinyl lumbersexual
+                                        bicycle rights, viral fap cronut leggings squid chillwave pickled gentrify mustache.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/row-->
+                    <!-- timeline item 4 -->
+                    <div class="row no-gutters">
+                        <div class="col-sm py-2">
+                            <div class="card shadow">
+                                <div class="card-body">
+                                    <div class="float-right text-muted small">Jan 12th 2019 11:30 AM</div>
+                                    <h4 class="card-title">Caixa Geral de Depositos</h4>
+                                    <p>Join us for lunch in Bootsy's cafe across from the Campus Center.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                            <div class="row h-50">
+                                <div class="col border-right">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                            <h5 class="m-2">
+                                <img src="images/caixa-logo.png">
+                            </h5>
+                            <div class="row h-50">
+                                <div class="col">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="col-sm"> <!--spacer--> </div>
+                    </div>
+                    <!--/row-->
+                </div>
+        </section>
+        <section id="formation">
+            <h2 class="text-center text-uppercase text-secondary mb-0">Formation</h2>
+            <div class="container">
+                <div class="row m-2">
+                    <div class="col-sm col-lg-4 m-auto text-center">
+                        <img class="img-fluid img-formation" src="images/dauphine.png" alt="Logo Dauphine">
+                    </div>
+                    <div class="col-sm col-lg-8 m-auto">
+                        <h3>Master 2 Marketing et Stratégie<br><small class="text-muted">Marketing Communication</small></h3>
+                        <ul>
+                            <li>Bla bla bla</li>
+                            <li>blabl abla blablabl</li>
+                            <li>Bla bla bla</li>
+                            <li>blabl abla blablabl</li>
+                            <li>Bla bla bla</li>
+                            <li>blabl abla blablabl</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="row flex-md-row-reverse m-2">
+                    <div class="col-sm col-lg-4 m-auto text-center">
+                        <img class="img-fluid img-formation" src="images/epitech.jpeg" alt="Logo EPITECH CODING ACADEMY">
+                    </div>
+                    <div class="col-sm col-lg-8 m-auto">
+                        <h3>Coding Academy by EPITECH<br><small class="text-muted">Web&Go</small></h3>
+                        <ul>
+                            <li>Bla bla bla</li>
+                            <li>blabl abla blablabl</li>
+                            <li>Bla bla bla</li>
+                            <li>blabl abla blablabl</li>
+                            <li>Bla bla bla</li>
+                            <li>blabl abla blablabl</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio">
+            <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="card-deck">
+                        <div class="card border-white">
+                            <img class="card-img-top" src="images/projet-agence-voyage.png" alt="Card image cap" data-toggle="modal" data-target=".content-modal-travel-agency">
+                            <div class="card-body">
+                            <h5 class="card-title">Agence de voyage</h5>
+                            <p class="card-text">Projet en HTML5 / CSS3 / Responsive</p>
+                            </div>
+                            <div class="modal fade content-modal-travel-agency" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-body">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-md-8"><img class="img-fluid" src="images/travel-agency-desktop.png" alt="Travel Agency Desktop"></div>
+                                                <div class="col-md-4 ml-auto"><img class="img-fluid" src="images/travel-agency-mobile.png" alt="Travel Agency Mobile"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-white">
+                            <img class="card-img-top" src="images/projet-space.png" alt="Card image cap" data-toggle="modal" data-target=".content-modal-space">
+                            <div class="card-body">
+                            <h5 class="card-title">Projet site Space</h5>
+                            <p class="card-text">HTML5 / CSS3 / Animations</p>
+                            </div>
+                            <div class="modal fade content-modal-space" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-body">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-md-8"><img class="img-fluid" src="images/space-desktop.png" alt="Space Desktop"></div>
+                                                <div class="col-md-4 ml-auto"><img class="img-fluid" src="images/space-mobile.png" alt="Space Mobile"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-white">
+                            <img class="card-img-top" src="images/projet-hello-world.png" alt="Card image cap" data-toggle="modal" data-target=".content-modal-hello-world">
+                            <div class="card-body">
+                            <h5 class="card-title">Projet Hello World</h5>
+                            <p class="card-text">Site en HTML 5 / CSS3 / Responsive</p>
+                            </div>
+                            <div class="modal fade content-modal-hello-world" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-body">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-md-8"><img class="img-fluid" src="images/hello-world-desktop.png" alt="Hello"></div>
+                                                <div class="col-md-4 ml-auto"><img class="img-fluid" src="images/hello-world-mobile.png" alt="Hello"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-deck">
+                        <div class="card border-white">
+                            <img class="card-img-top" src="images/projet-agence-voyage.png" alt="Card image cap" data-toggle="modal" data-target=".content-modal-lg">
+                            <div class="card-body">
+                            <h5 class="card-title">Agence de voyage</h5>
+                            <p class="card-text">Projet en HTML5 / CSS3 / Responsive</p>
+                            </div>
+                            <div class="modal fade content-modal-travel-agency" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-body">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-md-8"><img class="img-fluid" src="images/travel-agency-desktop.png" alt="Hello"></div>
+                                                <div class="col-md-4 ml-auto"><img class="img-fluid" src="images/travel-agency-mobile.png" alt="Hello"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-white">
+                            <img class="card-img-top" src="images/projet-batman.png" alt="Card image cap" data-toggle="modal" data-target=".content-modal-batman">
+                            <div class="card-body">
+                            <h5 class="card-title">Projet site Batman</h5>
+                            <p class="card-text">Framework Materialize</p>
+                            </div>
+                            <div class="modal fade content-modal-batman" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-body">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-md-8"><img class="img-fluid" src="images/batman-desktop.png" alt="Hello"></div>
+                                                <div class="col-md-4 ml-auto"><img class="img-fluid" src="images/batman-mobile.png" alt="Hello"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-white">
+                            <img class="card-img-top" src="images/projet-forest.png" alt="Card image cap" data-toggle="modal" data-target=".content-modal-forest">
+                            <div class="card-body">
+                            <h5 class="card-title">Projet Hello World</h5>
+                            <p class="card-text">Site en HTML 5 / CSS3 / Responsive</p>
+                            </div>
+                            <div class="modal fade content-modal-forest" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-body">
+                                        <div class="container-fluid">
+                                            <img class="img-fluid" src="images/forest-desktop.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="competences">
+            <div class="container">
+                <div id="bloc-competence" class="row">
+                    <div class="col-sm-12">
+                        <h2 class="text-center text-uppercase mb-0 text-white">Compétences</h2>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <h3>Marketing / Communication</h3>
+                        <ul class="list-inline text-center">
+                            <li class="list-inline-item"><i class="fab fa-amazon"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-android"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-apple"></i></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <h3>Développement Web</h3>
+                        <ul class="list-inline text-center">
+                            <li class="list-inline-item"><i class="fab fa-html5 "></i></li>
+                            <li class="list-inline-item"><i class="fab fa-css3-alt "></i></li>
+                            <li class="list-inline-item"><i class="fab fa-js"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-less"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-sass"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-wordpress-simple"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2 class="text-center text-uppercase text-secondary mb-0">Contact</h2>
+            <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-6">
+                        <h3>Benjamin Lanciaux<br><small class="text-muted">développeur front-end</small></h3>
+                        <ul>
+                            <li><i class="fab fa-github"></i>EMAIL : benjamin.lanciaux@bmail.com</li>
+                            <li><i class="fab fa-linkedin"></i>LINKEDIN : <a href="https://www.linkedin.com/in/blanciaux">www.linkedin.com/in/blanciaux</a></li>
+                            <li><i class="fab fa-twitter"></i>TWITTER : @blanciaux</li>
+                            <li><i class="fab fa-github"></i>GIT HUB : github-benjamin-lanciaux</li>
+                        </ul>
+                        </div>
+                        <div class="col-sm-12 col-lg-6">
+                            <form>
+                                <div class="form-group">
+                                    <label for="nom">Nom</label>
+                                    <input type="text" class="form-control active" id="nom" placeholder="Nom" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="prenom">Prénom</label>
+                                    <input type="text" class="form-control" id="prenom" placeholder="Prénom" required>
+                                </div>
+                                <div class="input-field">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Adresse Email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Votre message</label>
+                                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                                </div>
+                                <div class="form-group text-center">
+                                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <footer class="bg-dark text-white text-center">
+            ©2018 Copyright - Developed by Benjamin Lanciaux
+        </footer>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

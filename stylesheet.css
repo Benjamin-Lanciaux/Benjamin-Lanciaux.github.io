@@ -1,0 +1,141 @@
+/* MIXIN */
+/* VARIABLES */
+/* GENERAL */
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h2 {
+  padding: 2% 0%;
+}
+
+/* MENU */
+/* HEADER */
+#header {
+  background: url(images/lac.jpg) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+#header div {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+#header div h1 {
+  font-weight: bold;
+  background: rgba(202, 202, 202, 0.8);
+  display: inline-block;
+  padding: 2%;
+  border-radius: 5px;
+}
+
+/* ABOUT */
+#about {
+  padding: 3% 0%;
+  margin: 1% 0%;
+}
+#about .portrait {
+  width: 80%;
+}
+#about p {
+  font-size: 1.2em;
+}
+
+/* EXP */
+#experiences {
+  background-color: rgba(202, 202, 202, 0.6);
+  padding: 3% 0%;
+  margin: 1% 0%;
+}
+#experiences .border-right {
+  border-right: 2px solid #17a2b8 !important;
+}
+#experiences img {
+  width: 100%;
+}
+
+/* FORMATION */
+#formation {
+  padding: 3% 0%;
+  margin: 1% 0%;
+}
+#formation .img-formation {
+  width: 80%;
+}
+
+/* PORTFOLIO */
+#portfolio {
+  background-color: rgba(202, 202, 202, 0.6);
+  padding: 3% 0%;
+  margin: 1% 0%;
+}
+#portfolio .card {
+  margin: 1%;
+}
+#portfolio .card .card-img-top {
+  filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+}
+#portfolio .card .card-img-top:hover {
+  cursor: pointer;
+}
+#portfolio .card .card-img-top:hover {
+  transition: all 0.3s;
+  filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+@media (max-width: 768px) {
+  #portfolio .card-deck {
+    flex-direction: column;
+  }
+}
+
+/* COMPETENCES */
+#competences {
+  padding: 3% 0%;
+  margin: 1% 0%;
+  background: url(images/metro.jpg) no-repeat center center fixed;
+  display: table;
+  height: auto;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  padding-top: 5%;
+}
+#competences .fab {
+  color: white;
+  font-size: 4em;
+}
+#competences #bloc-competence {
+  background-color: rgba(202, 202, 202, 0.8);
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* CONTACT */
+#contact {
+  padding: 3% 0%;
+  margin: 1% 0%;
+}
+#contact ul li {
+  list-style: none;
+}
+
+i {
+  padding-right: 10px;
+}
+
+/*# sourceMappingURL=stylesheet.css.map */
