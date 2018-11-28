@@ -114,10 +114,17 @@ h2{
     position: relative;
     background-size: cover;
     padding-top: 5%;
-    .fab{
+    .fab, .fas{
         color: white;
         font-size: 4em;
-    }  
+    } 
+    p,h3{
+        background-color: rgb(138, 138, 138);
+        padding: 2px;
+        border-radius: 2px;
+    }
+
+
     #bloc-competence{
         background-color: rgba($color: #cacaca, $alpha: 0.8);
         color: white;
@@ -130,8 +137,13 @@ h2{
 #contact{
     @include bloc;
     ul{
+        padding: 10% 0;
+        
         li{
             list-style: none;
+            a{
+                color: #16A2B7
+            }
         }
     }
 }
@@ -139,3 +151,5 @@ h2{
 i{
     padding-right: 10px;
 }
+
+/* FOOTER */
